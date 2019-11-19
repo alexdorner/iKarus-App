@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="338dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="264dp"
+        android:contentDescription="@string/app_name"
+        android:lineSpacingExtra="12sp"
+        android:textAppearance="@android:style/TextAppearance.Material.DialogWindowTitle"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Willkommen auf iKarus" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Material.Light.Button"
+        android:layout_width="164dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="458dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="62dp"
+        android:background="@color/colorAccent"
+        android:backgroundTintMode="src_over"
+        android:contentDescription="@string/app_name"
+        android:fontFamily="sans-serif-black"
+        android:textAppearance="@android:style/TextAppearance"
+        android:typeface="sans"
+        app:layout_constraintBaseline_creator="@android:integer/config_longAnimTime"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Weiter" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="109dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="416dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/app_name"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

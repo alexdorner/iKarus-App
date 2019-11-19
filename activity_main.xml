@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="@android:dimen/app_icon_size">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="166dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="340dp"
+        android:inputType="textPassword"
+        android:text="Passwort"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="218dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="396dp"
+        android:text="User"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Material.Light.Button"
+        android:layout_width="164dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="458dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="118dp"
+        android:background="@color/colorAccent"
+        android:backgroundTintMode="src_over"
+        android:fontFamily="sans-serif-black"
+        android:onClick="R"
+        android:text="Login"
+        android:textAppearance="@android:style/TextAppearance"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="109dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="472dp"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Constraints
+        android:id="@+id/constraints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

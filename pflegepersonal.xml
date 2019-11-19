@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="101dp"
+            android:layout_height="38dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Hallo!"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:typeface="sans"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="139dp"
+            tools:layout_editor_absoluteY="26dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ListView
+            android:id="@+id/patientenauswahl"
+            android:layout_width="395dp"
+            android:layout_height="516dp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="79dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
